@@ -26,7 +26,8 @@ public class MovieResourse {
 
         return Movie.builder()
                 .movieId(movieId)
-                .name(movieSummary.getTitle())
+                .title(movieSummary.getTitle())
+                .overview(movieSummary.getOverview())
                 .build();
     }
 }
